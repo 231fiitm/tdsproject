@@ -122,15 +122,6 @@ def main():
     ]
     write_to_csv(repositories, "repositories.csv", repo_fieldnames)
 
-    # Create README.md
-    print("[+] Creating README.md...")
-    with open("README.md", "w") as readme:
-        readme.write(
-            "## GitHub User Analysis in Seattle\n\n"
-            "- This data was scraped using the GitHub API.\n"
-            "- We found a surprising number of users in Seattle with over 200 followers working in various industries.\n"
-            "- Developers in Seattle should consider contributing to open-source projects to increase visibility and networking opportunities.\n"
-        )
 
     print(f"[✔] Data collection complete. Users collected: {len(users)}, Repositories collected: {len(repositories)}. Files saved: users.csv, repositories.csv, README.md")
 
