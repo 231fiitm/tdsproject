@@ -1,6 +1,6 @@
 # GitHub User Analysis in Seattle
 
-- We scraped data from GitHub's API using python to analyze user profiles of developers based in Seattle, focusing on followers and public repositories.
+- We scraped data from GitHub's API using python to analyze user profiles of developers based in Seattle with more than 200 followers, focusing on followers and public repositories.
 - An interesting finding was that longer bios tended to correlate with fewer followers, which suggests that brevity may be more appealing.
 - Based on our analysis, seattle developers should create more public repositories, as we found that each additional repository leads to approximately 2.5 more followers on average.
 
